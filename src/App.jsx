@@ -6,7 +6,7 @@ import {
   About,
   TechStack,
   Projects,
-  Testimonials,
+  // Testimonials,
   Footer,
   Contact,
 } from "./sections";
@@ -21,7 +21,7 @@ const App = () => {
       <About />
       <TechStack />
       <Projects />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>

@@ -1,6 +1,8 @@
 import TitleHeader from "../components/TitleHeader";
-import Carousel from "../components/Carousel";
 import GradientSpheres from "../components/GradientSpheres";
+import CarouselNew from "../components/CarouselNew";
+import ProjectCard from "../components/ProjectCard";
+import { myProjects } from "../constants";
 
 const Projects = () => {
   return (
@@ -18,8 +20,13 @@ const Projects = () => {
             text="Check my recent project below for your Goal"
           />
         </div>
+
         <div className="md:mt-20 mt-10">
-          <Carousel />
+          <CarouselNew gap="gap-4">
+            {myProjects.map((project, idx) => (
+              <ProjectCard key={idx} project={project} />
+            ))}
+          </CarouselNew>
         </div>
       </div>
     </section>

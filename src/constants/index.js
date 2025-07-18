@@ -179,6 +179,69 @@ const footerIconsList = [
   },
 ];
 
+const myProjects = [
+  {
+    title: "F4Fish",
+    image: "/images/f4fish.png",
+    demoLink: "https://f4fish.com/",
+  },
+  {
+    title: "My Travellers Choice",
+    image: "/images/travellers.png",
+    demoLink: "https://mytravellerschoice.com/",
+  },
+  {
+    title: "Bizire App",
+    image: "/images/bizire.png",
+    demoLink: "https://bizireapp.com/",
+  },
+  {
+    title: "Billion Tag",
+    image: "/images/billion.png",
+    demoLink: "https://billion-tags-web.vercel.app/",
+  },
+  {
+    title: "Bhoomi Basket",
+    image: "/images/bhoomi.png",
+    demoLink: "https://bhoomi-basket-pjvoxwok8-selfstack.vercel.app/",
+  },
+  {
+    title: "Travellers Choice – B2B",
+    image: "/images/travellersb2b.png",
+    demoLink: "https://www.travellerschoice.ae/",
+  },
+  {
+    title: "Travellers Choice – Admin Dashboard",
+    image: "/images/travellersadmin.png",
+    demoLink: "https://b2b.mytravellerschoice.com/login",
+  },
+  {
+    title: "Falcon",
+    image: "/images/falcon.png",
+    demoLink: "https://falcon-gamma.vercel.app/",
+  },
+  {
+    title: "Cloudb",
+    image: "/images/cloudb.png",
+    demoLink: "https://pizza-time-react.vercel.app/",
+  },
+  {
+    title: "Flashat",
+    image: "/images/flashat.png",
+    demoLink: "https://flashat.com/huddles/public",
+  },
+  {
+    title: "Nibav Home Lifts",
+    image: "/images/nibav.png",
+    demoLink: "https://www.nibavlifts.com/",
+  },
+  {
+    title: "Nibav Home Lifts",
+    image: "/images/nibav.png",
+    demoLink: "https://www.nibavlifts.com/",
+  },
+];
+
 export {
   navItems,
   bentoSocialLinks,
@@ -186,4 +249,5 @@ export {
   slides,
   testimonials,
   footerIconsList,
+  myProjects,
 };
