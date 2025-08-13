@@ -34,12 +34,12 @@ const bentoSocialLinks = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.facebook.com/",
+    href: "https://linkedin.com/in/arunjith-surendran-156192186",
     icon: "/images/linkedin.svg",
   },
   {
     name: "WhatsApp",
-    href: "https://www.facebook.com/",
+    href: "https://wa.me/971544039125?text=Hi%20Arunjith%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect.",
     icon: "/images/whatsapp.svg",
   },
 ];
@@ -236,9 +236,33 @@ const myProjects = [
     demoLink: "https://www.nibavlifts.com/",
   },
   {
-    title: "Nibav Home Lifts",
-    image: "/images/nibav.png",
-    demoLink: "https://www.nibavlifts.com/",
+    title: "F4Fish Mobile App",
+    image: "/images/f4mob.jpeg",
+    demoLink: "https://play.google.com/store/apps/details?id=com.f4fish.f4fish",
+  },
+  {
+    title: "Bizire Mobile App",
+    image: "/images/bizireMob.jpeg",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.bizireapp.client",
+  },
+  {
+    title: "Healthy Chef Mobile App",
+    image: "/images/healthychefMob.jpeg",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.healthychef.customer",
+  },
+  {
+    title: "JobZinda Mobile App",
+    image: "/images/jobZindaMob.jpeg",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.jobZinda.customersh",
+  },
+  {
+    title: "VCall Mobile App",
+    image: "/images/VcallMob.jpeg",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.vcall.customer",
   },
 ];
 

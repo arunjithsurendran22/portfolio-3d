@@ -44,7 +44,7 @@ const CarouselNew = ({ children, highlightCenter = false, gap = "gap-4" }) => {
       {/* Left Icon Button */}
       <button
         onClick={scrollLeft}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 text-7xl text-[#7F5AF0] hover:scale-110 transition-transform"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 text-7xl text-[#7F5AF0] hover:scale-110 transition-transform cursor-pointer"
         aria-label="Scroll Left"
       >
         <FiChevronLeft />
@@ -53,7 +53,7 @@ const CarouselNew = ({ children, highlightCenter = false, gap = "gap-4" }) => {
       {/* Right Icon Button */}
       <button
         onClick={scrollRight}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 text-7xl text-[#7F5AF0] hover:scale-110 transition-transform"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 text-7xl text-[#7F5AF0] hover:scale-110 transition-transform cursor-pointer"
         aria-label="Scroll Right"
       >
         <FiChevronRight />
