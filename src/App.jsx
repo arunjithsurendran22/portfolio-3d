@@ -1,5 +1,5 @@
 import {
-  Loader,
+  // Loader,
   NavBar,
   Sidebar,
   Hero,
@@ -14,7 +14,7 @@ import {
 const App = () => {
   return (
     <div className="bg-black-100">
-      <Loader />
+      {/* <Loader /> */}
       <NavBar />
       <Sidebar />
       <Hero />
